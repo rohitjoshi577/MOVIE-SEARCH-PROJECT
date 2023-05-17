@@ -1,0 +1,58 @@
+.top-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0,0,0,0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+}
+
+.logo{
+  height: 20px;
+  margin: 8px;
+  background-color: black; 
+  padding: 6px;
+  cursor: pointer;
+}
+
+
+.favorite{
+  color: rgb(235, 7, 7);
+  margin-right: 60px;
+  font-size: 30px !important;
+  cursor: pointer;
+}
+
+@media (max-width:500px){
+  .favorite{
+    margin-right: 10px;
+  }
+
+}
+
+
+.favorite-container{
+  position: relative;
+  margin-top: 0px !important;
+}
+
+.favorite-count{
+  position: absolute;
+  top: 0;
+  left: 2px;
+  margin: 0;
+  margin-left: 6px;
+  margin-top: 8px;
+  height: 14px;
+  width: 14px;
+  border-radius: 7px;
+  background-color: black;
+  color: red;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}

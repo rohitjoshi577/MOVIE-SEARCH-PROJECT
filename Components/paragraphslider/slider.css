@@ -1,0 +1,50 @@
+.feature-heading{
+  font-family: 'DM Sans', sans-serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: rgb(180, 180, 180);
+  text-align: center;
+  margin: 0;
+}
+
+.input-movie-search{
+  width: 80vw;
+  margin-left: 10vw;
+  font-size: 20px;
+  font-family: 'DM Sans', sans-serif;
+  padding: 4px;
+}
+
+.results-number{
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: brown;
+}
+
+.search-button{
+  background-color: black;
+  color: rgb(230, 230, 230);
+  padding: 15px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: bold;
+  border: none;
+  margin-top: 20px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
+.search-button:hover{
+  color: black;
+  background-color: rgb(230, 230, 230);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
+.button-flex{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

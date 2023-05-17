@@ -1,0 +1,10 @@
+API KEY = 27a01c49
+
+https://www.omdbapi.com/?i={tt0248126}&apikey={27a01c49}&plot=full
+
+indivisual ID
+
+
+https://www.omdbapi.com/?s={MOVIE_NAME}&apikey={API_KEY}
+
+search by name
